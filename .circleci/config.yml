@@ -4,4 +4,6 @@ orbs:
 workflows:
     example-workflow:
       jobs:
-        - node/run
+        - node/run:
+            pkg manager: npm
+
